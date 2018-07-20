@@ -1,9 +1,3 @@
-### iOS 状态栏
-```
-App启动页如果不需要显示状态栏信息，可以设置隐藏。
-设置方法依然是修改info.plist，只需要设置Status bar is initially hidden即可 
-将其设置为YES之后，启动页将暂时不显示状态栏
-```
 ### 约束Masonry
 ```
 // 告诉self.view约束需要更新
@@ -89,4 +83,10 @@ return YES;
 ```
 本机是 7.0的系统， xocde支持最低版本需7.0
 否则 7.0包安装不上 xcode生成的ipad 包
+```
+### iOS 状态栏
+```
+App启动页如果不需要显示状态栏信息，可以设置隐藏。
+设置方法依然是修改info.plist，只需要设置Status bar is initially hidden即可 
+将其设置为YES之后，启动页将暂时不显示状态栏
 ```
