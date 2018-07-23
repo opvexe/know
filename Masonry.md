@@ -78,6 +78,57 @@ return YES;
 [self.view layoutIfNeeded];
 }];
 ```
+###  Masonry动画案例
+```
+-(void)Show{
+UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
+self.translatesAutoresizingMaskIntoConstraints = NO;
+[keyWindow addSubview:self];
+[self mas_makeConstraints:^(MASConstraintMaker *make) {
+make.edges.mas_equalTo(keyWindow);
+}];
+
+[self.contentView mas_updateConstraints:^(MASConstraintMaker *make) {
+make.top.mas_equalTo(SCREEN_HEIGHT);
+}];
+
+[UIView animateWithDuration:0.5 animations:^{
+[self.contentView mas_updateConstraints:^(MASConstraintMaker *make) {
+make.top.mas_equalTo(SCREEN_HEIGHT-350-WD_TabbarSafeBottomMargin);
+}];
+} completion:^(BOOL finished) {
+[self layoutIfNeeded];
+}];
+}
+
+-(void)dismissView{
+[self.contentView mas_updateConstraints:^(MASConstraintMaker *make) {
+make.top.mas_equalTo(SCREEN_HEIGHT);
+}];
+[UIView animateWithDuration:0.2 animations:^{
+[self layoutIfNeeded];   ///告诉视图 约束需要更新
+} completion:^(BOOL finished) {
+[self removeFromSuperview];
+}];
+}
+
+_contentView = ({
+WDSalesContentView *iv = [[WDSalesContentView alloc] init];
+[self addSubview:iv];
+iv.backgroundColor = [UIColor whiteColor];
+[iv mas_makeConstraints:^(MASConstraintMaker *make) {
+make.right.and.left.mas_equalTo(0);
+make.height.mas_equalTo(350);
+make.top.mas_equalTo(SCREEN_HEIGHT);
+}];
+iv;
+});
+[self layoutIfNeeded];
+
+```
+
+
+
 
 ### ipad 包
 ```
