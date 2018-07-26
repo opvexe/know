@@ -10,6 +10,12 @@
 		3463484A5BBDB43CF10D7834 /* libPods-Mine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C20AE9A8CF6AF025C67C3988 /* libPods-Mine.a */; };
 		BF8231973DA3F0F75969A1EA /* libPods-MineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D016AD2CC357498FC7ADEBC3 /* libPods-MineTests.a */; };
 		D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD14E21099FE900FF4BD4 /* AccountBookViewController.m */; };
+		D01BD1542109A69C00FF4BD4 /* AccountBookHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1532109A69C00FF4BD4 /* AccountBookHeadView.m */; };
+		D01BD1582109AA4900FF4BD4 /* WDPie.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1572109AA4900FF4BD4 /* WDPie.m */; };
+		D01BD15B2109AB4700FF4BD4 /* WDPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD15A2109AB4700FF4BD4 /* WDPieChart.m */; };
+		D01BD1632109B11900FF4BD4 /* WDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1622109B11900FF4BD4 /* WDConst.m */; };
+		D01BD1692109B25F00FF4BD4 /* ZFMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1682109B25F00FF4BD4 /* ZFMethod.m */; };
+		D01BD16C2109BA6A00FF4BD4 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD16B2109BA6A00FF4BD4 /* NSString+Category.m */; };
 		D073E7CE210868C2007CEE67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D073E7CD210868C2007CEE67 /* AppDelegate.m */; };
 		D073E7D1210868C2007CEE67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D073E7D0210868C2007CEE67 /* ViewController.m */; };
 		D073E7D6210868C3007CEE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D073E7D5210868C3007CEE67 /* Assets.xcassets */; };
@@ -40,6 +46,18 @@
 		D016AD2CC357498FC7ADEBC3 /* libPods-MineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01BD14C21099FE900FF4BD4 /* AccountBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountBookViewController.h; sourceTree = "<group>"; };
 		D01BD14E21099FE900FF4BD4 /* AccountBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountBookViewController.m; sourceTree = "<group>"; };
+		D01BD1522109A69C00FF4BD4 /* AccountBookHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountBookHeadView.h; sourceTree = "<group>"; };
+		D01BD1532109A69C00FF4BD4 /* AccountBookHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountBookHeadView.m; sourceTree = "<group>"; };
+		D01BD1562109AA4900FF4BD4 /* WDPie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDPie.h; sourceTree = "<group>"; };
+		D01BD1572109AA4900FF4BD4 /* WDPie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDPie.m; sourceTree = "<group>"; };
+		D01BD1592109AB4700FF4BD4 /* WDPieChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDPieChart.h; sourceTree = "<group>"; };
+		D01BD15A2109AB4700FF4BD4 /* WDPieChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDPieChart.m; sourceTree = "<group>"; };
+		D01BD1612109B11900FF4BD4 /* WDConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConst.h; sourceTree = "<group>"; };
+		D01BD1622109B11900FF4BD4 /* WDConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConst.m; sourceTree = "<group>"; };
+		D01BD1672109B25F00FF4BD4 /* ZFMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFMethod.h; sourceTree = "<group>"; };
+		D01BD1682109B25F00FF4BD4 /* ZFMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMethod.m; sourceTree = "<group>"; };
+		D01BD16A2109BA6A00FF4BD4 /* NSString+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		D01BD16B2109BA6A00FF4BD4 /* NSString+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
 		D073E7C9210868C2007CEE67 /* Mine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D073E7CC210868C2007CEE67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D073E7CD210868C2007CEE67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,15 +121,59 @@
 		D01BD14B21099FE900FF4BD4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D01BD1512109A20300FF4BD4 /* Cell */,
+				D01BD1502109A1F700FF4BD4 /* View */,
 				D01BD14C21099FE900FF4BD4 /* AccountBookViewController.h */,
 				D01BD14E21099FE900FF4BD4 /* AccountBookViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		D01BD1502109A1F700FF4BD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D01BD1522109A69C00FF4BD4 /* AccountBookHeadView.h */,
+				D01BD1532109A69C00FF4BD4 /* AccountBookHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D01BD1512109A20300FF4BD4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D01BD1552109AA2300FF4BD4 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				D01BD15D2109B07A00FF4BD4 /* Category */,
+				D01BD1562109AA4900FF4BD4 /* WDPie.h */,
+				D01BD1572109AA4900FF4BD4 /* WDPie.m */,
+				D01BD1592109AB4700FF4BD4 /* WDPieChart.h */,
+				D01BD15A2109AB4700FF4BD4 /* WDPieChart.m */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		D01BD15D2109B07A00FF4BD4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D01BD1672109B25F00FF4BD4 /* ZFMethod.h */,
+				D01BD1682109B25F00FF4BD4 /* ZFMethod.m */,
+				D01BD1612109B11900FF4BD4 /* WDConst.h */,
+				D01BD1622109B11900FF4BD4 /* WDConst.m */,
+				D01BD16A2109BA6A00FF4BD4 /* NSString+Category.h */,
+				D01BD16B2109BA6A00FF4BD4 /* NSString+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D073E7C0210868C2007CEE67 = {
 			isa = PBXGroup;
 			children = (
+				D01BD1552109AA2300FF4BD4 /* PieChart */,
 				D01BD14B21099FE900FF4BD4 /* Controller */,
 				D073E7F821086CAE007CEE67 /* Cell */,
 				D073E7F12108698C007CEE67 /* Model */,
@@ -318,11 +380,17 @@
 			files = (
 				D073E7D1210868C2007CEE67 /* ViewController.m in Sources */,
 				D073E7F4210869BA007CEE67 /* WDSettingGroup.m in Sources */,
+				D01BD1692109B25F00FF4BD4 /* ZFMethod.m in Sources */,
+				D01BD16C2109BA6A00FF4BD4 /* NSString+Category.m in Sources */,
 				D073E7DC210868C3007CEE67 /* main.m in Sources */,
 				D073E7CE210868C2007CEE67 /* AppDelegate.m in Sources */,
 				D073E7F721086A0A007CEE67 /* WDSettingItem.m in Sources */,
+				D01BD1542109A69C00FF4BD4 /* AccountBookHeadView.m in Sources */,
+				D01BD15B2109AB4700FF4BD4 /* WDPieChart.m in Sources */,
+				D01BD1582109AA4900FF4BD4 /* WDPie.m in Sources */,
 				D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */,
 				D073E7FB21086CC8007CEE67 /* WDMineTableViewCell.m in Sources */,
+				D01BD1632109B11900FF4BD4 /* WDConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

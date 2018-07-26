@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96102A9AAA26870E8DB6159444140642"
-               BlueprintName = "Pods-Mine"
+               BlueprintIdentifier = "289B0CD3965253BCA2129DCF2287623B"
+               BlueprintName = "ARSegmentPager"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-Mine.a">
+               BuildableName = "libARSegmentPager.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

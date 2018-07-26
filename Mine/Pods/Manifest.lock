@@ -1,16 +1,20 @@
 PODS:
+  - ARSegmentPager (1.1.2)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - ARSegmentPager
   - Masonry
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - ARSegmentPager
     - Masonry
 
 SPEC CHECKSUMS:
+  ARSegmentPager: daff3a6a14c71280a7494e404e658df45a38e3ae
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 4c00792734a67b16e66d3e93f6e0fe16cc0a6c8f
+PODFILE CHECKSUM: 1cd26a3b81bc4e62991f9d49d77f924c42cfe004
 
 COCOAPODS: 1.5.0

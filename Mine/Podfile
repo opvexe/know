@@ -11,5 +11,8 @@ target 'Mine' do
     inherit! :search_paths
     # Pods for testing
   end
+
 pod 'Masonry'
+pod 'ARSegmentPager'
+
 end
