@@ -10,7 +10,7 @@
 #import "WDSettingGroup.h"
 #import "WDMineTableViewCell.h"
 #import <Masonry.h>
-
+#import "AccountBookViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableListView;
 @property(nonatomic,strong)NSMutableArray *lists;
@@ -27,6 +27,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.title = @"设置";
     [self loadDataSouce];
     
     _tableListView = ({
@@ -50,9 +52,9 @@
 }
 
 -(void)loadDataSouce{
-    WDSettingItem *notice = [WDSettingItem itemWithIcon:nil title:@"None" type:WDSettingItemTypeNone];
+    WDSettingItem *notice = [WDSettingItem itemWithIcon:nil title:@"AccountBook" type:WDSettingItemTypeNone];
     notice.operation = ^{
-        NSLog(@"None");
+        [self.navigationController pushViewController:[AccountBookViewController new] animated:YES];
     };
     WDSettingItem *help = [WDSettingItem itemWithIcon:@"MoreHelp" title:@"Arrow" type:WDSettingItemTypeArrow];
     help.operation = ^{

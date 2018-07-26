@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		3463484A5BBDB43CF10D7834 /* libPods-Mine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C20AE9A8CF6AF025C67C3988 /* libPods-Mine.a */; };
 		BF8231973DA3F0F75969A1EA /* libPods-MineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D016AD2CC357498FC7ADEBC3 /* libPods-MineTests.a */; };
+		D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD14E21099FE900FF4BD4 /* AccountBookViewController.m */; };
 		D073E7CE210868C2007CEE67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D073E7CD210868C2007CEE67 /* AppDelegate.m */; };
 		D073E7D1210868C2007CEE67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D073E7D0210868C2007CEE67 /* ViewController.m */; };
-		D073E7D4210868C2007CEE67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D073E7D2210868C2007CEE67 /* Main.storyboard */; };
 		D073E7D6210868C3007CEE67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D073E7D5210868C3007CEE67 /* Assets.xcassets */; };
 		D073E7D9210868C3007CEE67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D073E7D7210868C3007CEE67 /* LaunchScreen.storyboard */; };
 		D073E7DC210868C3007CEE67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D073E7DB210868C3007CEE67 /* main.m */; };
@@ -38,12 +38,13 @@
 		9C5B951F91EF987E7A89F931 /* Pods-Mine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mine/Pods-Mine.release.xcconfig"; sourceTree = "<group>"; };
 		C20AE9A8CF6AF025C67C3988 /* libPods-Mine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D016AD2CC357498FC7ADEBC3 /* libPods-MineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01BD14C21099FE900FF4BD4 /* AccountBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountBookViewController.h; sourceTree = "<group>"; };
+		D01BD14E21099FE900FF4BD4 /* AccountBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountBookViewController.m; sourceTree = "<group>"; };
 		D073E7C9210868C2007CEE67 /* Mine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D073E7CC210868C2007CEE67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D073E7CD210868C2007CEE67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D073E7CF210868C2007CEE67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D073E7D0210868C2007CEE67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D073E7D3210868C2007CEE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D073E7D5210868C3007CEE67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D073E7D8210868C3007CEE67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D073E7DA210868C3007CEE67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,12 +100,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D01BD14B21099FE900FF4BD4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D01BD14C21099FE900FF4BD4 /* AccountBookViewController.h */,
+				D01BD14E21099FE900FF4BD4 /* AccountBookViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		D073E7C0210868C2007CEE67 = {
 			isa = PBXGroup;
 			children = (
+				D01BD14B21099FE900FF4BD4 /* Controller */,
 				D073E7F821086CAE007CEE67 /* Cell */,
 				D073E7F12108698C007CEE67 /* Model */,
-				D073E7F021086984007CEE67 /* View */,
 				D073E7CB210868C2007CEE67 /* Mine */,
 				D073E7E4210868C4007CEE67 /* MineTests */,
 				D073E7CA210868C2007CEE67 /* Products */,
@@ -129,7 +139,6 @@
 				D073E7CD210868C2007CEE67 /* AppDelegate.m */,
 				D073E7CF210868C2007CEE67 /* ViewController.h */,
 				D073E7D0210868C2007CEE67 /* ViewController.m */,
-				D073E7D2210868C2007CEE67 /* Main.storyboard */,
 				D073E7D5210868C3007CEE67 /* Assets.xcassets */,
 				D073E7D7210868C3007CEE67 /* LaunchScreen.storyboard */,
 				D073E7DA210868C3007CEE67 /* Info.plist */,
@@ -145,13 +154,6 @@
 				D073E7E7210868C4007CEE67 /* Info.plist */,
 			);
 			path = MineTests;
-			sourceTree = "<group>";
-		};
-		D073E7F021086984007CEE67 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		D073E7F12108698C007CEE67 /* Model */ = {
@@ -258,7 +260,6 @@
 			files = (
 				D073E7D9210868C3007CEE67 /* LaunchScreen.storyboard in Resources */,
 				D073E7D6210868C3007CEE67 /* Assets.xcassets in Resources */,
-				D073E7D4210868C2007CEE67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +321,7 @@
 				D073E7DC210868C3007CEE67 /* main.m in Sources */,
 				D073E7CE210868C2007CEE67 /* AppDelegate.m in Sources */,
 				D073E7F721086A0A007CEE67 /* WDSettingItem.m in Sources */,
+				D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */,
 				D073E7FB21086CC8007CEE67 /* WDMineTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D073E7D2210868C2007CEE67 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D073E7D3210868C2007CEE67 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D073E7D7210868C3007CEE67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
