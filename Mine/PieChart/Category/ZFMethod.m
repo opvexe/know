@@ -33,13 +33,6 @@ static ZFMethod * instance = nil;
     return instance;
 }
 
-+ (instancetype)allocWithZone:(struct _NSZone *)zone{
-    return [ZFMethod shareInstance];
-}
-
-+ (instancetype)copyWithZone:(struct _NSZone *)zone{
-    return [ZFMethod shareInstance];
-}
 
 /**
  *  计算颜色数量

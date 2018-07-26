@@ -255,7 +255,7 @@
          self.perLabel.frame = CGRectZero;
         return;
     }
-    
+ 
     CGFloat x = (point.x - _pieCenter.x);
     CGFloat y = (point.y - _pieCenter.y);
     CGFloat radian = atan2(y, x);
