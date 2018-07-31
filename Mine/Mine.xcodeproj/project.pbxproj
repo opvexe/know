@@ -29,6 +29,9 @@
 		D073E7F4210869BA007CEE67 /* WDSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D073E7F3210869BA007CEE67 /* WDSettingGroup.m */; };
 		D073E7F721086A0A007CEE67 /* WDSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D073E7F621086A0A007CEE67 /* WDSettingItem.m */; };
 		D073E7FB21086CC8007CEE67 /* WDMineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D073E7FA21086CC8007CEE67 /* WDMineTableViewCell.m */; };
+		D083EA11211057840017EEDC /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D083EA10211057840017EEDC /* NSString+Category.m */; };
+		D083EA14211067800017EEDC /* UIFont+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D083EA13211067800017EEDC /* UIFont+Category.m */; };
+		D083EA17211068510017EEDC /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D083EA16211068510017EEDC /* UIView+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,12 @@
 		D073E7F621086A0A007CEE67 /* WDSettingItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDSettingItem.m; sourceTree = "<group>"; };
 		D073E7F921086CC8007CEE67 /* WDMineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDMineTableViewCell.h; sourceTree = "<group>"; };
 		D073E7FA21086CC8007CEE67 /* WDMineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDMineTableViewCell.m; sourceTree = "<group>"; };
+		D083EA0F211057840017EEDC /* NSString+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		D083EA10211057840017EEDC /* NSString+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		D083EA12211067800017EEDC /* UIFont+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Category.h"; sourceTree = "<group>"; };
+		D083EA13211067800017EEDC /* UIFont+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Category.m"; sourceTree = "<group>"; };
+		D083EA15211068510017EEDC /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		D083EA16211068510017EEDC /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +194,7 @@
 		D073E7C0210868C2007CEE67 = {
 			isa = PBXGroup;
 			children = (
+				D083EA0E211057750017EEDC /* Category */,
 				D01BD1552109AA2300FF4BD4 /* PieChart */,
 				D01BD14B21099FE900FF4BD4 /* Controller */,
 				D073E7F821086CAE007CEE67 /* Cell */,
@@ -256,6 +266,19 @@
 				D059848B210AA83000FC6F34 /* BaseTableViewCell.m */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		D083EA0E211057750017EEDC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D083EA0F211057840017EEDC /* NSString+Category.h */,
+				D083EA10211057840017EEDC /* NSString+Category.m */,
+				D083EA12211067800017EEDC /* UIFont+Category.h */,
+				D083EA13211067800017EEDC /* UIFont+Category.m */,
+				D083EA15211068510017EEDC /* UIView+Category.h */,
+				D083EA16211068510017EEDC /* UIView+Category.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +423,7 @@
 			files = (
 				D073E7D1210868C2007CEE67 /* ViewController.m in Sources */,
 				D073E7F4210869BA007CEE67 /* WDSettingGroup.m in Sources */,
+				D083EA14211067800017EEDC /* UIFont+Category.m in Sources */,
 				D059848F210AAB3900FC6F34 /* BaseModel.m in Sources */,
 				D01BD1692109B25F00FF4BD4 /* ZFMethod.m in Sources */,
 				D0598486210AA72800FC6F34 /* SettingViewController.m in Sources */,
@@ -411,9 +435,11 @@
 				D01BD1542109A69C00FF4BD4 /* AccountBookHeadView.m in Sources */,
 				D01BD15B2109AB4700FF4BD4 /* WDPieChart.m in Sources */,
 				D01BD1582109AA4900FF4BD4 /* WDPie.m in Sources */,
+				D083EA11211057840017EEDC /* NSString+Category.m in Sources */,
 				D059848C210AA83000FC6F34 /* BaseTableViewCell.m in Sources */,
 				D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */,
 				D073E7FB21086CC8007CEE67 /* WDMineTableViewCell.m in Sources */,
+				D083EA17211068510017EEDC /* UIView+Category.m in Sources */,
 				D01BD1632109B11900FF4BD4 /* WDConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +591,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Mine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,6 +609,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Mine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

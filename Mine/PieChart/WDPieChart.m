@@ -286,20 +286,20 @@
 ///MARK: 增加百分比Label
 - (void)creatPercentLabel:(NSInteger)i{
     NSString * string = [self getPercent:i];
-    CGRect rect = [string stringWidthRectWithSize:CGSizeMake(0, 0) font:_percentOnChartFont];
-    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, rect.size.width, rect.size.height)];
-    label.text = string;
-    label.alpha = 0.f;
-    label.textAlignment = NSTextAlignmentCenter;
-    label.backgroundColor = [UIColor clearColor];
-    label.font = _percentOnChartFont;
-    label.center = _centerPoint;
-    label.tag = ZFPieChartPercentLabelTag + i;
-    [self addSubview:label];
-    [UIView animateWithDuration:[self countDuration:i] animations:^{
-        label.alpha = 1.f;
-    }];
-    label.textColor = [UIColor whiteColor];
+//    CGRect rect = [string stringWidthRectWithSize:CGSizeMake(0, 0) font:_percentOnChartFont];
+//    UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, rect.size.width, rect.size.height)];
+//    label.text = string;
+//    label.alpha = 0.f;
+//    label.textAlignment = NSTextAlignmentCenter;
+//    label.backgroundColor = [UIColor clearColor];
+//    label.font = _percentOnChartFont;
+//    label.center = _centerPoint;
+//    label.tag = ZFPieChartPercentLabelTag + i;
+//    [self addSubview:label];
+//    [UIView animateWithDuration:[self countDuration:i] animations:^{
+//        label.alpha = 1.f;
+//    }];
+//    label.textColor = [UIColor whiteColor];
 }
 
 ////MARK: 懒加载
