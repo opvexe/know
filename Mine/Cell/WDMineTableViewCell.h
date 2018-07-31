@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WDSettingItem.h"
-@interface WDMineTableViewCell : UITableViewCell
-#pragma mark 私有方法
-+(instancetype)CellWithTableView:(UITableView *)tableview;
--(void)InitDataWithModel:(WDSettingItem *)model;
+#import "BaseTableViewCell.h"
+
+@interface WDMineTableViewCell : BaseTableViewCell
 @end

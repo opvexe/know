@@ -11,6 +11,8 @@
 #import "WDMineTableViewCell.h"
 #import <Masonry.h>
 #import "AccountBookViewController.h"
+#import "SettingViewController.h"
+
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *tableListView;
 @property(nonatomic,strong)NSMutableArray *lists;
@@ -59,6 +61,7 @@
     WDSettingItem *help = [WDSettingItem itemWithIcon:@"MoreHelp" title:@"Arrow" type:WDSettingItemTypeArrow];
     help.operation = ^{
         NSLog(@"Arrow");
+        [self.navigationController pushViewController:[SettingViewController new] animated:YES];
     };
     WDSettingItem *detail = [WDSettingItem itemWithIcon:nil title:@"Switch" type:WDSettingItemTypeSwitch];
     detail.switchBlock = ^(BOOL on) {

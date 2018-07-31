@@ -54,6 +54,10 @@
     }
 }
 
++(CGFloat)getCellHeight:(WDSettingItem *)model{
+    return 40.0f;
+}
+
 -(UISwitch *)SWitch{
     if (!_SWitch) {
         _SWitch = [[UISwitch alloc]init];

@@ -13,6 +13,5 @@ target 'Mine' do
   end
 
 pod 'Masonry'
-pod 'ARSegmentPager'
 
 end

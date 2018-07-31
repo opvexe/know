@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseModel.h"
 
 typedef NS_ENUM(NSInteger, WDSettingItemType) {
     WDSettingItemTypeNone,
@@ -15,7 +16,7 @@ typedef NS_ENUM(NSInteger, WDSettingItemType) {
     WDSettingItemTypePhoto,  //图片
 };
 
-@interface WDSettingItem : NSObject
+@interface WDSettingItem : BaseModel
 
 /**
  * 图标
@@ -27,10 +28,18 @@ typedef NS_ENUM(NSInteger, WDSettingItemType) {
  */
 @property (nonatomic, copy) NSString *title;
 
+
+/**
+ * Cell
+ */
+@property (nonatomic,copy) NSString *CellClass;
+
 /**
  * Cell 类型
  */
 @property (nonatomic, assign) WDSettingItemType type;
+
+@property(nonatomic,strong)BaseModel *baseModel;
 
 /**
  * 设置开关
@@ -43,5 +52,7 @@ typedef NS_ENUM(NSInteger, WDSettingItemType) {
 @property (nonatomic, copy) void (^switchBlock)(BOOL on);
 #pragma mark 私有方法
 + (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title type:(WDSettingItemType)type;
++ (instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title CellClass:(NSString *)CellClass;
++ (instancetype)itemWithModel:(BaseModel *)model CellClass:(NSString *)CellClass;
 
 @end

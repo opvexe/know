@@ -57,7 +57,7 @@
 }
 
 - (CGFloat)radiusForPieChart:(WDPieChart *)pieChart{
-    return 120.f;
+    return 120.0f;
 }
 
 - (CGFloat)radiusAverageNumberOfSegments:(WDPieChart *)pieChart{
