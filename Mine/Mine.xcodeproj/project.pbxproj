@@ -16,6 +16,10 @@
 		D01BD1632109B11900FF4BD4 /* WDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1622109B11900FF4BD4 /* WDConst.m */; };
 		D01BD1692109B25F00FF4BD4 /* ZFMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1682109B25F00FF4BD4 /* ZFMethod.m */; };
 		D01BD16C2109BA6A00FF4BD4 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD16B2109BA6A00FF4BD4 /* NSString+Category.m */; };
+		D02C5B4B211133C5005681C7 /* UIImage+ScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */; };
+		D02C5B4E21113716005681C7 /* WDToolManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4D21113716005681C7 /* WDToolManger.m */; };
+		D02C5B50211139ED005681C7 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4F211139ED005681C7 /* Foundation+Log.m */; };
+		D02C5B5321113C0A005681C7 /* UIImage+Zip.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B5221113C0A005681C7 /* UIImage+Zip.m */; };
 		D0598486210AA72800FC6F34 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0598485210AA72800FC6F34 /* SettingViewController.m */; };
 		D0598489210AA7E800FC6F34 /* SettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0598488210AA7E800FC6F34 /* SettingTableViewCell.m */; };
 		D059848C210AA83000FC6F34 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D059848B210AA83000FC6F34 /* BaseTableViewCell.m */; };
@@ -65,6 +69,13 @@
 		D01BD1682109B25F00FF4BD4 /* ZFMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMethod.m; sourceTree = "<group>"; };
 		D01BD16A2109BA6A00FF4BD4 /* NSString+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
 		D01BD16B2109BA6A00FF4BD4 /* NSString+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		D02C5B49211133C5005681C7 /* UIImage+ScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleImage.h"; sourceTree = "<group>"; };
+		D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleImage.m"; sourceTree = "<group>"; };
+		D02C5B4C21113716005681C7 /* WDToolManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDToolManger.h; sourceTree = "<group>"; };
+		D02C5B4D21113716005681C7 /* WDToolManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDToolManger.m; sourceTree = "<group>"; };
+		D02C5B4F211139ED005681C7 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		D02C5B5121113C0A005681C7 /* UIImage+Zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Zip.h"; sourceTree = "<group>"; };
+		D02C5B5221113C0A005681C7 /* UIImage+Zip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Zip.m"; sourceTree = "<group>"; };
 		D0598484210AA72800FC6F34 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		D0598485210AA72800FC6F34 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		D0598487210AA7E800FC6F34 /* SettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingTableViewCell.h; sourceTree = "<group>"; };
@@ -271,12 +282,19 @@
 		D083EA0E211057750017EEDC /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D02C5B4F211139ED005681C7 /* Foundation+Log.m */,
 				D083EA0F211057840017EEDC /* NSString+Category.h */,
 				D083EA10211057840017EEDC /* NSString+Category.m */,
 				D083EA12211067800017EEDC /* UIFont+Category.h */,
 				D083EA13211067800017EEDC /* UIFont+Category.m */,
 				D083EA15211068510017EEDC /* UIView+Category.h */,
 				D083EA16211068510017EEDC /* UIView+Category.m */,
+				D02C5B49211133C5005681C7 /* UIImage+ScaleImage.h */,
+				D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */,
+				D02C5B5121113C0A005681C7 /* UIImage+Zip.h */,
+				D02C5B5221113C0A005681C7 /* UIImage+Zip.m */,
+				D02C5B4C21113716005681C7 /* WDToolManger.h */,
+				D02C5B4D21113716005681C7 /* WDToolManger.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -422,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D073E7D1210868C2007CEE67 /* ViewController.m in Sources */,
+				D02C5B4B211133C5005681C7 /* UIImage+ScaleImage.m in Sources */,
 				D073E7F4210869BA007CEE67 /* WDSettingGroup.m in Sources */,
 				D083EA14211067800017EEDC /* UIFont+Category.m in Sources */,
 				D059848F210AAB3900FC6F34 /* BaseModel.m in Sources */,
@@ -434,12 +453,15 @@
 				D073E7F721086A0A007CEE67 /* WDSettingItem.m in Sources */,
 				D01BD1542109A69C00FF4BD4 /* AccountBookHeadView.m in Sources */,
 				D01BD15B2109AB4700FF4BD4 /* WDPieChart.m in Sources */,
+				D02C5B4E21113716005681C7 /* WDToolManger.m in Sources */,
+				D02C5B5321113C0A005681C7 /* UIImage+Zip.m in Sources */,
 				D01BD1582109AA4900FF4BD4 /* WDPie.m in Sources */,
 				D083EA11211057840017EEDC /* NSString+Category.m in Sources */,
 				D059848C210AA83000FC6F34 /* BaseTableViewCell.m in Sources */,
 				D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */,
 				D073E7FB21086CC8007CEE67 /* WDMineTableViewCell.m in Sources */,
 				D083EA17211068510017EEDC /* UIView+Category.m in Sources */,
+				D02C5B50211139ED005681C7 /* Foundation+Log.m in Sources */,
 				D01BD1632109B11900FF4BD4 /* WDConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
