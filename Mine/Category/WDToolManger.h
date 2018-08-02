@@ -46,9 +46,14 @@
  *  判断麦克风权限
  */
 +(BOOL)canRecord;
-
-
-
+/**
+ *  64base字符串转图片
+ */
++ (UIImage *)stringToImage:(NSString *)str;
+/**
+ *  图片转64base字符串
+ */
++ (NSString *)imageToString:(UIImage *)image;
 
 /**
  *  获取对应高度

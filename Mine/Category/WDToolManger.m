@@ -176,4 +176,18 @@
     }
     return bCanRecord;
 }
+
++ (UIImage *)stringToImage:(NSString *)str{
+    NSData * imageData =[[NSData alloc] initWithBase64EncodedString:str options:NSDataBase64DecodingIgnoreUnknownCharacters];
+    UIImage *photo = [UIImage imageWithData:imageData];
+    return photo;
+}
+
++ (NSString *)imageToString:(UIImage *)image{
+    NSData *imagedata = UIImagePNGRepresentation(image);
+    NSString *image64 = [imagedata base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
+    return image64;
+}
+
+
 @end

@@ -60,6 +60,14 @@ NSString* MD5_32Bit_Lower(NSString* input);
  */
 NSString* MD5_32Bit_Upper(NSString* input);
 /**
+ *  Base64加密
+ */
+NSString *base64Encoding(NSString *string);
+/**
+ *  Base64解密
+ */
+NSString *decodingBase64(NSString *sourceString);
+/**
  *  URL编码
 
  @param url 输入编码的URL

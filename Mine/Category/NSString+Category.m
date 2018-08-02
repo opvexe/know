@@ -94,6 +94,24 @@ NSString* MD5_32Bit_Upper(NSString* input){
              ] uppercaseString];
 }
 
+NSString *base64Encoding(NSString *string){
+    if (!string) {
+        return nil;
+    }
+    NSData *sourceData = [str dataUsingEncoding:NSUTF8StringEncoding];
+    NSString *resultString = [sourceData base64EncodedStringWithOptions:
+                              NSDataBase64Encoding64CharacterLineLength];
+    return resultString;
+}
+
+NSString *decodingBase64(NSString *sourceString){
+    if (!sourceString) {
+        return nil;
+    }
+    NSData *resultData = [[NSData alloc]initWithBase64EncodedString:sourceString options:NSDataBase64DecodingIgnoreUnknownCharacters];
+    return [[NSString alloc] initWithData:resultData encoding:NSUTF8StringEncoding];
+}
+
 NSString *urlEncodedString(NSString *url){
     NSString *encodedString = (NSString *)
     CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault,
