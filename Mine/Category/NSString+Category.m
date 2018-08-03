@@ -471,4 +471,19 @@ NSString *DistanceConversion(NSString *distance){
     return distanceString;
 }
 
+NSString *cacheSizeStr(NSInteger _totalSize){
+    NSInteger totalSize = _totalSize;
+    NSString *sizeStr = @"当前缓存大小为：";
+    if (totalSize > 1000 * 1000) {
+        CGFloat sizeF = totalSize / 1000.0 / 1000.0;
+        sizeStr = [NSString stringWithFormat:@"%@(%.1fMB)", sizeStr, sizeF];
+    } else if (totalSize > 1000) {
+        CGFloat sizeF = totalSize / 1000.0;
+        sizeStr = [NSString stringWithFormat:@"%@(%.1fKB)", sizeStr, sizeF];
+    } else if (totalSize > 0) {
+        sizeStr = [NSString stringWithFormat:@"%@(%.ldB)", sizeStr, totalSize];
+    }
+    return sizeStr;
+}
+
 @end
