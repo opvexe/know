@@ -16,6 +16,10 @@
 		D01BD1632109B11900FF4BD4 /* WDConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1622109B11900FF4BD4 /* WDConst.m */; };
 		D01BD1692109B25F00FF4BD4 /* ZFMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1682109B25F00FF4BD4 /* ZFMethod.m */; };
 		D01BD16C2109BA6A00FF4BD4 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD16B2109BA6A00FF4BD4 /* NSString+Category.m */; };
+		D02B47202113DC6A0039C061 /* UIColor+WDTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B471F2113DC6A0039C061 /* UIColor+WDTheme.m */; };
+		D02B47232113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B47222113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.m */; };
+		D02B47262113EFF20039C061 /* UIView+WDBlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B47252113EFF20039C061 /* UIView+WDBlocksKit.m */; };
+		D02B47292113F0200039C061 /* UIGestureRecognizer+WDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B47282113F0200039C061 /* UIGestureRecognizer+WDExtension.m */; };
 		D02C5B4B211133C5005681C7 /* UIImage+ScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */; };
 		D02C5B4E21113716005681C7 /* WDToolManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4D21113716005681C7 /* WDToolManger.m */; };
 		D02C5B50211139ED005681C7 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4F211139ED005681C7 /* Foundation+Log.m */; };
@@ -69,6 +73,14 @@
 		D01BD1682109B25F00FF4BD4 /* ZFMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMethod.m; sourceTree = "<group>"; };
 		D01BD16A2109BA6A00FF4BD4 /* NSString+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
 		D01BD16B2109BA6A00FF4BD4 /* NSString+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		D02B471E2113DC6A0039C061 /* UIColor+WDTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WDTheme.h"; sourceTree = "<group>"; };
+		D02B471F2113DC6A0039C061 /* UIColor+WDTheme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WDTheme.m"; sourceTree = "<group>"; };
+		D02B47212113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WDNavigatonBarAppearance.h"; sourceTree = "<group>"; };
+		D02B47222113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WDNavigatonBarAppearance.m"; sourceTree = "<group>"; };
+		D02B47242113EFF20039C061 /* UIView+WDBlocksKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WDBlocksKit.h"; sourceTree = "<group>"; };
+		D02B47252113EFF20039C061 /* UIView+WDBlocksKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WDBlocksKit.m"; sourceTree = "<group>"; };
+		D02B47272113F0200039C061 /* UIGestureRecognizer+WDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+WDExtension.h"; sourceTree = "<group>"; };
+		D02B47282113F0200039C061 /* UIGestureRecognizer+WDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+WDExtension.m"; sourceTree = "<group>"; };
 		D02C5B49211133C5005681C7 /* UIImage+ScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleImage.h"; sourceTree = "<group>"; };
 		D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleImage.m"; sourceTree = "<group>"; };
 		D02C5B4C21113716005681C7 /* WDToolManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDToolManger.h; sourceTree = "<group>"; };
@@ -293,6 +305,14 @@
 				D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */,
 				D02C5B5121113C0A005681C7 /* UIImage+Zip.h */,
 				D02C5B5221113C0A005681C7 /* UIImage+Zip.m */,
+				D02B471E2113DC6A0039C061 /* UIColor+WDTheme.h */,
+				D02B471F2113DC6A0039C061 /* UIColor+WDTheme.m */,
+				D02B47212113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.h */,
+				D02B47222113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.m */,
+				D02B47242113EFF20039C061 /* UIView+WDBlocksKit.h */,
+				D02B47252113EFF20039C061 /* UIView+WDBlocksKit.m */,
+				D02B47272113F0200039C061 /* UIGestureRecognizer+WDExtension.h */,
+				D02B47282113F0200039C061 /* UIGestureRecognizer+WDExtension.m */,
 				D02C5B4C21113716005681C7 /* WDToolManger.h */,
 				D02C5B4D21113716005681C7 /* WDToolManger.m */,
 			);
@@ -450,6 +470,8 @@
 				D0598489210AA7E800FC6F34 /* SettingTableViewCell.m in Sources */,
 				D073E7DC210868C3007CEE67 /* main.m in Sources */,
 				D073E7CE210868C2007CEE67 /* AppDelegate.m in Sources */,
+				D02B47232113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.m in Sources */,
+				D02B47202113DC6A0039C061 /* UIColor+WDTheme.m in Sources */,
 				D073E7F721086A0A007CEE67 /* WDSettingItem.m in Sources */,
 				D01BD1542109A69C00FF4BD4 /* AccountBookHeadView.m in Sources */,
 				D01BD15B2109AB4700FF4BD4 /* WDPieChart.m in Sources */,
@@ -457,8 +479,10 @@
 				D02C5B5321113C0A005681C7 /* UIImage+Zip.m in Sources */,
 				D01BD1582109AA4900FF4BD4 /* WDPie.m in Sources */,
 				D083EA11211057840017EEDC /* NSString+Category.m in Sources */,
+				D02B47292113F0200039C061 /* UIGestureRecognizer+WDExtension.m in Sources */,
 				D059848C210AA83000FC6F34 /* BaseTableViewCell.m in Sources */,
 				D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */,
+				D02B47262113EFF20039C061 /* UIView+WDBlocksKit.m in Sources */,
 				D073E7FB21086CC8007CEE67 /* WDMineTableViewCell.m in Sources */,
 				D083EA17211068510017EEDC /* UIView+Category.m in Sources */,
 				D02C5B50211139ED005681C7 /* Foundation+Log.m in Sources */,
@@ -612,6 +636,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
 				INFOPLIST_FILE = Mine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -630,6 +655,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
 				INFOPLIST_FILE = Mine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (

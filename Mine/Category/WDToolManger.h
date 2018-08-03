@@ -55,6 +55,10 @@
  */
 + (NSString *)imageToString:(UIImage *)image;
 
+
+
+
+
 /**
  *  获取对应高度
  */

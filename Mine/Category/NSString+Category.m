@@ -98,7 +98,7 @@ NSString *base64Encoding(NSString *string){
     if (!string) {
         return nil;
     }
-    NSData *sourceData = [str dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *sourceData = [string dataUsingEncoding:NSUTF8StringEncoding];
     NSString *resultString = [sourceData base64EncodedStringWithOptions:
                               NSDataBase64Encoding64CharacterLineLength];
     return resultString;
