@@ -481,7 +481,7 @@ NSString *cacheSizeStr(NSInteger _totalSize){
         CGFloat sizeF = totalSize / 1000.0;
         sizeStr = [NSString stringWithFormat:@"%@(%.1fKB)", sizeStr, sizeF];
     } else if (totalSize > 0) {
-        sizeStr = [NSString stringWithFormat:@"%@(%.ldB)", sizeStr, totalSize];
+        sizeStr = [NSString stringWithFormat:@"%@(%.lfdB)", sizeStr, totalSize];
     }
     return sizeStr;
 }

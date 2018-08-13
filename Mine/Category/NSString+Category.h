@@ -254,11 +254,10 @@ NSString *intervalSinceNow(NSString *theDate);
  @return 返回公里字符 1KM 100M
  */
 NSString *DistanceConversion(NSString *distance);
-
 /**
  * 计算文件大小
 
- @param totalSize 总字节
+ @param _totalSize 总字节
  @return 文件大小
  */
 NSString *cacheSizeStr(NSInteger _totalSize);

@@ -93,6 +93,7 @@ NSString *zcGetIphoneOperators(void);
  *   获取设备UUID
  */
 NSString *zcGetIphoneUUID(void);
+
 #pragma mark  GetHeightContain
 /**
  *  获取对应高度
