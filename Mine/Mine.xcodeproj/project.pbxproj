@@ -21,7 +21,6 @@
 		D02B47262113EFF20039C061 /* UIView+WDBlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B47252113EFF20039C061 /* UIView+WDBlocksKit.m */; };
 		D02B47292113F0200039C061 /* UIGestureRecognizer+WDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B47282113F0200039C061 /* UIGestureRecognizer+WDExtension.m */; };
 		D02C5B4B211133C5005681C7 /* UIImage+ScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */; };
-		D02C5B4E21113716005681C7 /* WDToolManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4D21113716005681C7 /* WDToolManger.m */; };
 		D02C5B50211139ED005681C7 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B4F211139ED005681C7 /* Foundation+Log.m */; };
 		D02C5B5321113C0A005681C7 /* UIImage+Zip.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C5B5221113C0A005681C7 /* UIImage+Zip.m */; };
 		D0598486210AA72800FC6F34 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0598485210AA72800FC6F34 /* SettingViewController.m */; };
@@ -40,6 +39,10 @@
 		D083EA11211057840017EEDC /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D083EA10211057840017EEDC /* NSString+Category.m */; };
 		D083EA14211067800017EEDC /* UIFont+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D083EA13211067800017EEDC /* UIFont+Category.m */; };
 		D083EA17211068510017EEDC /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D083EA16211068510017EEDC /* UIView+Category.m */; };
+		D0F282692126C3F300F15762 /* WDToolManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F2825F2126C3F200F15762 /* WDToolManger.m */; };
+		D0F2826A2126C3F300F15762 /* WDToolManger+Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F282632126C3F200F15762 /* WDToolManger+Equipment.m */; };
+		D0F2826C2126C3F300F15762 /* WDToolManger+TextHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F282662126C3F300F15762 /* WDToolManger+TextHeight.m */; };
+		D0F2826D2126C3F300F15762 /* WDToolManger+Appstore.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F282672126C3F300F15762 /* WDToolManger+Appstore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +86,6 @@
 		D02B47282113F0200039C061 /* UIGestureRecognizer+WDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+WDExtension.m"; sourceTree = "<group>"; };
 		D02C5B49211133C5005681C7 /* UIImage+ScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleImage.h"; sourceTree = "<group>"; };
 		D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleImage.m"; sourceTree = "<group>"; };
-		D02C5B4C21113716005681C7 /* WDToolManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDToolManger.h; sourceTree = "<group>"; };
-		D02C5B4D21113716005681C7 /* WDToolManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDToolManger.m; sourceTree = "<group>"; };
 		D02C5B4F211139ED005681C7 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		D02C5B5121113C0A005681C7 /* UIImage+Zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Zip.h"; sourceTree = "<group>"; };
 		D02C5B5221113C0A005681C7 /* UIImage+Zip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Zip.m"; sourceTree = "<group>"; };
@@ -120,6 +121,14 @@
 		D083EA13211067800017EEDC /* UIFont+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Category.m"; sourceTree = "<group>"; };
 		D083EA15211068510017EEDC /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		D083EA16211068510017EEDC /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		D0F2825F2126C3F200F15762 /* WDToolManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDToolManger.m; sourceTree = "<group>"; };
+		D0F282602126C3F200F15762 /* WDToolManger+Appstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WDToolManger+Appstore.h"; sourceTree = "<group>"; };
+		D0F282612126C3F200F15762 /* WDToolManger+Equipment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WDToolManger+Equipment.h"; sourceTree = "<group>"; };
+		D0F282622126C3F200F15762 /* WDToolManger+TextHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WDToolManger+TextHeight.h"; sourceTree = "<group>"; };
+		D0F282632126C3F200F15762 /* WDToolManger+Equipment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WDToolManger+Equipment.m"; sourceTree = "<group>"; };
+		D0F282642126C3F200F15762 /* WDToolManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDToolManger.h; sourceTree = "<group>"; };
+		D0F282662126C3F300F15762 /* WDToolManger+TextHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WDToolManger+TextHeight.m"; sourceTree = "<group>"; };
+		D0F282672126C3F300F15762 /* WDToolManger+Appstore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WDToolManger+Appstore.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +226,7 @@
 		D073E7C0210868C2007CEE67 = {
 			isa = PBXGroup;
 			children = (
+				D0F282582126C28200F15762 /* Tools */,
 				D083EA0E211057750017EEDC /* Category */,
 				D01BD1552109AA2300FF4BD4 /* PieChart */,
 				D01BD14B21099FE900FF4BD4 /* Controller */,
@@ -313,10 +323,23 @@
 				D02B47252113EFF20039C061 /* UIView+WDBlocksKit.m */,
 				D02B47272113F0200039C061 /* UIGestureRecognizer+WDExtension.h */,
 				D02B47282113F0200039C061 /* UIGestureRecognizer+WDExtension.m */,
-				D02C5B4C21113716005681C7 /* WDToolManger.h */,
-				D02C5B4D21113716005681C7 /* WDToolManger.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		D0F282582126C28200F15762 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D0F282642126C3F200F15762 /* WDToolManger.h */,
+				D0F2825F2126C3F200F15762 /* WDToolManger.m */,
+				D0F282602126C3F200F15762 /* WDToolManger+Appstore.h */,
+				D0F282672126C3F300F15762 /* WDToolManger+Appstore.m */,
+				D0F282612126C3F200F15762 /* WDToolManger+Equipment.h */,
+				D0F282632126C3F200F15762 /* WDToolManger+Equipment.m */,
+				D0F282622126C3F200F15762 /* WDToolManger+TextHeight.h */,
+				D0F282662126C3F300F15762 /* WDToolManger+TextHeight.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,6 +486,7 @@
 				D02C5B4B211133C5005681C7 /* UIImage+ScaleImage.m in Sources */,
 				D073E7F4210869BA007CEE67 /* WDSettingGroup.m in Sources */,
 				D083EA14211067800017EEDC /* UIFont+Category.m in Sources */,
+				D0F2826A2126C3F300F15762 /* WDToolManger+Equipment.m in Sources */,
 				D059848F210AAB3900FC6F34 /* BaseModel.m in Sources */,
 				D01BD1692109B25F00FF4BD4 /* ZFMethod.m in Sources */,
 				D0598486210AA72800FC6F34 /* SettingViewController.m in Sources */,
@@ -471,11 +495,12 @@
 				D073E7DC210868C3007CEE67 /* main.m in Sources */,
 				D073E7CE210868C2007CEE67 /* AppDelegate.m in Sources */,
 				D02B47232113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.m in Sources */,
+				D0F282692126C3F300F15762 /* WDToolManger.m in Sources */,
 				D02B47202113DC6A0039C061 /* UIColor+WDTheme.m in Sources */,
 				D073E7F721086A0A007CEE67 /* WDSettingItem.m in Sources */,
 				D01BD1542109A69C00FF4BD4 /* AccountBookHeadView.m in Sources */,
+				D0F2826C2126C3F300F15762 /* WDToolManger+TextHeight.m in Sources */,
 				D01BD15B2109AB4700FF4BD4 /* WDPieChart.m in Sources */,
-				D02C5B4E21113716005681C7 /* WDToolManger.m in Sources */,
 				D02C5B5321113C0A005681C7 /* UIImage+Zip.m in Sources */,
 				D01BD1582109AA4900FF4BD4 /* WDPie.m in Sources */,
 				D083EA11211057840017EEDC /* NSString+Category.m in Sources */,
@@ -486,6 +511,7 @@
 				D073E7FB21086CC8007CEE67 /* WDMineTableViewCell.m in Sources */,
 				D083EA17211068510017EEDC /* UIView+Category.m in Sources */,
 				D02C5B50211139ED005681C7 /* Foundation+Log.m in Sources */,
+				D0F2826D2126C3F300F15762 /* WDToolManger+Appstore.m in Sources */,
 				D01BD1632109B11900FF4BD4 /* WDConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
