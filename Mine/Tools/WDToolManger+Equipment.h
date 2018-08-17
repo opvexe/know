@@ -49,5 +49,10 @@ NSString *zcGetIphoneOperators(void);
  */
 NSString *zcGetIphoneUUID(void);
 
+/**
+ * 是否是平板
 
+ @return 平板
+ */
+- (BOOL)isPad;
 @end

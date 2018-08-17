@@ -288,4 +288,7 @@ NSString *zcGetIphoneUUID(void){
     return retrieveuuid;
 }
 
+- (BOOL)isPad{
+    return [[UIDevice currentDevice].model isEqualToString:@"iPad"];
+}
 @end
