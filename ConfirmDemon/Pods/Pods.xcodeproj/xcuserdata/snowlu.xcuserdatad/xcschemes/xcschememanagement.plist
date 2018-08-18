@@ -4,20 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Masonry.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>Pods-Mine.xcscheme</key>
+		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-MineTests.xcscheme</key>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-ConfirmDemon.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>Pods-ConfirmDemonTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods-ConfirmDemonUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 	</dict>
 </dict>
