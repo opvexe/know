@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3463484A5BBDB43CF10D7834 /* libPods-Mine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C20AE9A8CF6AF025C67C3988 /* libPods-Mine.a */; };
 		BF8231973DA3F0F75969A1EA /* libPods-MineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D016AD2CC357498FC7ADEBC3 /* libPods-MineTests.a */; };
+		C28F1B6821285E3900B0DBD8 /* WDConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = C28F1B6721285E3900B0DBD8 /* WDConstant.m */; };
+		C28F1B6B21285EEA00B0DBD8 /* WDAPIConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = C28F1B6A21285EEA00B0DBD8 /* WDAPIConstant.m */; };
 		D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD14E21099FE900FF4BD4 /* AccountBookViewController.m */; };
 		D01BD1542109A69C00FF4BD4 /* AccountBookHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1532109A69C00FF4BD4 /* AccountBookHeadView.m */; };
 		D01BD1582109AA4900FF4BD4 /* WDPie.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BD1572109AA4900FF4BD4 /* WDPie.m */; };
@@ -62,6 +64,12 @@
 		8FF9222FB87592D087C0B826 /* Pods-MineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MineTests/Pods-MineTests.release.xcconfig"; sourceTree = "<group>"; };
 		9C5B951F91EF987E7A89F931 /* Pods-Mine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mine/Pods-Mine.release.xcconfig"; sourceTree = "<group>"; };
 		C20AE9A8CF6AF025C67C3988 /* libPods-Mine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28F1B6621285E3900B0DBD8 /* WDConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDConstant.h; sourceTree = "<group>"; };
+		C28F1B6721285E3900B0DBD8 /* WDConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDConstant.m; sourceTree = "<group>"; };
+		C28F1B6921285EEA00B0DBD8 /* WDAPIConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDAPIConstant.h; sourceTree = "<group>"; };
+		C28F1B6A21285EEA00B0DBD8 /* WDAPIConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDAPIConstant.m; sourceTree = "<group>"; };
+		C28F1B6C21285F0600B0DBD8 /* WDFilesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDFilesManager.h; sourceTree = "<group>"; };
+		C28F1B6D21285F3100B0DBD8 /* WDCommonConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDCommonConstant.h; sourceTree = "<group>"; };
 		D016AD2CC357498FC7ADEBC3 /* libPods-MineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01BD14C21099FE900FF4BD4 /* AccountBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountBookViewController.h; sourceTree = "<group>"; };
 		D01BD14E21099FE900FF4BD4 /* AccountBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountBookViewController.m; sourceTree = "<group>"; };
@@ -174,6 +182,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C28F1B6521285E1A00B0DBD8 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				C28F1B6621285E3900B0DBD8 /* WDConstant.h */,
+				C28F1B6721285E3900B0DBD8 /* WDConstant.m */,
+				C28F1B6921285EEA00B0DBD8 /* WDAPIConstant.h */,
+				C28F1B6A21285EEA00B0DBD8 /* WDAPIConstant.m */,
+				C28F1B6C21285F0600B0DBD8 /* WDFilesManager.h */,
+				C28F1B6D21285F3100B0DBD8 /* WDCommonConstant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		D01BD14B21099FE900FF4BD4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +250,7 @@
 		D073E7C0210868C2007CEE67 = {
 			isa = PBXGroup;
 			children = (
+				C28F1B6521285E1A00B0DBD8 /* Constant */,
 				D0F282582126C28200F15762 /* Tools */,
 				D083EA0E211057750017EEDC /* Category */,
 				D01BD1552109AA2300FF4BD4 /* PieChart */,
@@ -310,6 +332,8 @@
 				D02C5B4F211139ED005681C7 /* Foundation+Log.m */,
 				D083EA0F211057840017EEDC /* NSString+Category.h */,
 				D083EA10211057840017EEDC /* NSString+Category.m */,
+				D02B471E2113DC6A0039C061 /* UIColor+WDTheme.h */,
+				D02B471F2113DC6A0039C061 /* UIColor+WDTheme.m */,
 				D083EA12211067800017EEDC /* UIFont+Category.h */,
 				D083EA13211067800017EEDC /* UIFont+Category.m */,
 				D083EA15211068510017EEDC /* UIView+Category.h */,
@@ -318,8 +342,6 @@
 				D02C5B4A211133C5005681C7 /* UIImage+ScaleImage.m */,
 				D02C5B5121113C0A005681C7 /* UIImage+Zip.h */,
 				D02C5B5221113C0A005681C7 /* UIImage+Zip.m */,
-				D02B471E2113DC6A0039C061 /* UIColor+WDTheme.h */,
-				D02B471F2113DC6A0039C061 /* UIColor+WDTheme.m */,
 				D02B47212113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.h */,
 				D02B47222113ECAE0039C061 /* UIViewController+WDNavigatonBarAppearance.m */,
 				D02B47242113EFF20039C061 /* UIView+WDBlocksKit.h */,
@@ -494,6 +516,7 @@
 				D0F2826A2126C3F300F15762 /* WDToolManger+Equipment.m in Sources */,
 				D059848F210AAB3900FC6F34 /* BaseModel.m in Sources */,
 				D0F282732126C4E200F15762 /* WDToolManger+Authorization.m in Sources */,
+				C28F1B6B21285EEA00B0DBD8 /* WDAPIConstant.m in Sources */,
 				D01BD1692109B25F00FF4BD4 /* ZFMethod.m in Sources */,
 				D0598486210AA72800FC6F34 /* SettingViewController.m in Sources */,
 				D01BD16C2109BA6A00FF4BD4 /* NSString+Category.m in Sources */,
@@ -511,6 +534,7 @@
 				D01BD1582109AA4900FF4BD4 /* WDPie.m in Sources */,
 				D083EA11211057840017EEDC /* NSString+Category.m in Sources */,
 				D02B47292113F0200039C061 /* UIGestureRecognizer+WDExtension.m in Sources */,
+				C28F1B6821285E3900B0DBD8 /* WDConstant.m in Sources */,
 				D059848C210AA83000FC6F34 /* BaseTableViewCell.m in Sources */,
 				D01BD14F21099FE900FF4BD4 /* AccountBookViewController.m in Sources */,
 				D02B47262113EFF20039C061 /* UIView+WDBlocksKit.m in Sources */,
