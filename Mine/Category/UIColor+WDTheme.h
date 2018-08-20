@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (WDTheme)
+
+/**
+ * 随机色
+ */
++(UIColor *)WD_ColorRandom;
+
 /**
  *  主色调
  */
@@ -37,4 +43,5 @@
  *  TableView整体背景颜色
  */
 +(UIColor *)WD_bgTableViewColor;
+
 @end
