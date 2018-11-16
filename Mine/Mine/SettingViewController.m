@@ -39,7 +39,7 @@
         iv.showsHorizontalScrollIndicator =NO;
         iv.dataSource = self;
         iv.delegate = self;
-        iv.estimatedRowHeight = 0;
+        iv.rowHeight = 280.0f;
         iv.estimatedSectionFooterHeight = 0;
         iv.estimatedSectionHeaderHeight = 0;
         iv.tableFooterView  =[UIView new];
