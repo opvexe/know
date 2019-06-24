@@ -138,7 +138,7 @@
     
     UILabel *labelMoreThan = [UILabel new];
     labelMoreThan.backgroundColor = [UIColor redColor];
-    labelMoreThan.text = @"左边的测试label";
+    labelMoreThan.text = @"左边的";
     [self.view addSubview:labelMoreThan];
     [labelMoreThan mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(10);
