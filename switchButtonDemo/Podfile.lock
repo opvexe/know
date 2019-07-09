@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - Reveal-SDK (4)
+
+DEPENDENCIES:
+  - Masonry
+  - Reveal-SDK (~> 4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - Reveal-SDK
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  Reveal-SDK: 178c927f1a3230648d3a92b96f6e730a35b2750a
+
+PODFILE CHECKSUM: 24d462c07a78cd25d954e3b610fb39ed323add96
+
+COCOAPODS: 1.5.3

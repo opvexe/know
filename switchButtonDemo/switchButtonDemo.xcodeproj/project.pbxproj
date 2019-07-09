@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0035FC2F226D913900FC6360 /* SwitchTitleScrolloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0035FC2E226D913900FC6360 /* SwitchTitleScrolloView.m */; };
+		0035FC30226D9B7900FC6360 /* SwitchTitleScrolloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0035FC2E226D913900FC6360 /* SwitchTitleScrolloView.m */; };
+		003E23E9226F09E8003D1A46 /* UIView+WY_Extenison.m in Sources */ = {isa = PBXBuildFile; fileRef = 003E23E8226F09E8003D1A46 /* UIView+WY_Extenison.m */; };
+		0095396122672AD600125995 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0095396022672AD600125995 /* AppDelegate.m */; };
+		0095396422672AD600125995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0095396322672AD600125995 /* ViewController.m */; };
+		0095396722672AD600125995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0095396522672AD600125995 /* Main.storyboard */; };
+		0095396922672AD900125995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0095396822672AD900125995 /* Assets.xcassets */; };
+		0095396C22672AD900125995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0095396A22672AD900125995 /* LaunchScreen.storyboard */; };
+		0095396F22672AD900125995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0095396E22672AD900125995 /* main.m */; };
+		0095397922672AD900125995 /* switchButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0095397822672AD900125995 /* switchButtonDemoTests.m */; };
+		0095398422672AD900125995 /* switchButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0095398322672AD900125995 /* switchButtonDemoUITests.m */; };
+		00E22E2A226869F20062230E /* SwitchButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E22E29226869F20062230E /* SwitchButtonView.m */; };
+		508F6271563B3199F3A8B6A6 /* libPods-switchButtonDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42473935FEF940A2D701629A /* libPods-switchButtonDemoUITests.a */; };
+		B38645AB27E3DBAAE884B929 /* libPods-switchButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9115F9EE66ECF559D81635AB /* libPods-switchButtonDemo.a */; };
+		BFFE1DB05BCF990A327671EB /* libPods-switchButtonDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D4C100D9A3FF7DF823E581 /* libPods-switchButtonDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0095397522672AD900125995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0095395422672AD600125995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0095395B22672AD600125995;
+			remoteInfo = switchButtonDemo;
+		};
+		0095398022672AD900125995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0095395422672AD600125995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0095395B22672AD600125995;
+			remoteInfo = switchButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0035FC2D226D913900FC6360 /* SwitchTitleScrolloView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchTitleScrolloView.h; sourceTree = "<group>"; };
+		0035FC2E226D913900FC6360 /* SwitchTitleScrolloView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchTitleScrolloView.m; sourceTree = "<group>"; };
+		003E23E7226F09E8003D1A46 /* UIView+WY_Extenison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WY_Extenison.h"; sourceTree = "<group>"; };
+		003E23E8226F09E8003D1A46 /* UIView+WY_Extenison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WY_Extenison.m"; sourceTree = "<group>"; };
+		0095395C22672AD600125995 /* switchButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switchButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0095395F22672AD600125995 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0095396022672AD600125995 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0095396222672AD600125995 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0095396322672AD600125995 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0095396622672AD600125995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0095396822672AD900125995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0095396B22672AD900125995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0095396D22672AD900125995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0095396E22672AD900125995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0095397422672AD900125995 /* switchButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0095397822672AD900125995 /* switchButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = switchButtonDemoTests.m; sourceTree = "<group>"; };
+		0095397A22672AD900125995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0095397F22672AD900125995 /* switchButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = switchButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0095398322672AD900125995 /* switchButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = switchButtonDemoUITests.m; sourceTree = "<group>"; };
+		0095398522672AD900125995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E22E28226869F20062230E /* SwitchButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchButtonView.h; sourceTree = "<group>"; };
+		00E22E29226869F20062230E /* SwitchButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchButtonView.m; sourceTree = "<group>"; };
+		42473935FEF940A2D701629A /* libPods-switchButtonDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-switchButtonDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68342B6A9908DFD5B8DA8777 /* Pods-switchButtonDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switchButtonDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-switchButtonDemoUITests/Pods-switchButtonDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9115F9EE66ECF559D81635AB /* libPods-switchButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-switchButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE31CB2948483CED7F7B393 /* Pods-switchButtonDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switchButtonDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-switchButtonDemoTests/Pods-switchButtonDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA671A93A2CF6AE44034F46A /* Pods-switchButtonDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switchButtonDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-switchButtonDemoTests/Pods-switchButtonDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C41C7CC74C0E2ABDE3161FF1 /* Pods-switchButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switchButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-switchButtonDemo/Pods-switchButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D586FD192FA2925B5BB6D2D0 /* Pods-switchButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switchButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-switchButtonDemo/Pods-switchButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E7D4C100D9A3FF7DF823E581 /* libPods-switchButtonDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-switchButtonDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF163CEE0A8891B0E16643AF /* Pods-switchButtonDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-switchButtonDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-switchButtonDemoUITests/Pods-switchButtonDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0095395922672AD600125995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38645AB27E3DBAAE884B929 /* libPods-switchButtonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0095397122672AD900125995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFE1DB05BCF990A327671EB /* libPods-switchButtonDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0095397C22672AD900125995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508F6271563B3199F3A8B6A6 /* libPods-switchButtonDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0095395322672AD600125995 = {
+			isa = PBXGroup;
+			children = (
+				0095395E22672AD600125995 /* switchButtonDemo */,
+				0095397722672AD900125995 /* switchButtonDemoTests */,
+				0095398222672AD900125995 /* switchButtonDemoUITests */,
+				0095395D22672AD600125995 /* Products */,
+				531A53590890A4F178EE9BCB /* Pods */,
+				9916FE471470BC956D2DCFC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0095395D22672AD600125995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0095395C22672AD600125995 /* switchButtonDemo.app */,
+				0095397422672AD900125995 /* switchButtonDemoTests.xctest */,
+				0095397F22672AD900125995 /* switchButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0095395E22672AD600125995 /* switchButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0095399122672B5C00125995 /* View */,
+				0095395F22672AD600125995 /* AppDelegate.h */,
+				0095396022672AD600125995 /* AppDelegate.m */,
+				0095396222672AD600125995 /* ViewController.h */,
+				0095396322672AD600125995 /* ViewController.m */,
+				003E23E7226F09E8003D1A46 /* UIView+WY_Extenison.h */,
+				003E23E8226F09E8003D1A46 /* UIView+WY_Extenison.m */,
+				0095396522672AD600125995 /* Main.storyboard */,
+				0095396822672AD900125995 /* Assets.xcassets */,
+				0095396A22672AD900125995 /* LaunchScreen.storyboard */,
+				0095396D22672AD900125995 /* Info.plist */,
+				0095396E22672AD900125995 /* main.m */,
+			);
+			path = switchButtonDemo;
+			sourceTree = "<group>";
+		};
+		0095397722672AD900125995 /* switchButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0095397822672AD900125995 /* switchButtonDemoTests.m */,
+				0095397A22672AD900125995 /* Info.plist */,
+			);
+			path = switchButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		0095398222672AD900125995 /* switchButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0095398322672AD900125995 /* switchButtonDemoUITests.m */,
+				0095398522672AD900125995 /* Info.plist */,
+			);
+			path = switchButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		0095399122672B5C00125995 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00E22E28226869F20062230E /* SwitchButtonView.h */,
+				00E22E29226869F20062230E /* SwitchButtonView.m */,
+				0035FC2D226D913900FC6360 /* SwitchTitleScrolloView.h */,
+				0035FC2E226D913900FC6360 /* SwitchTitleScrolloView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		531A53590890A4F178EE9BCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C41C7CC74C0E2ABDE3161FF1 /* Pods-switchButtonDemo.debug.xcconfig */,
+				D586FD192FA2925B5BB6D2D0 /* Pods-switchButtonDemo.release.xcconfig */,
+				9AE31CB2948483CED7F7B393 /* Pods-switchButtonDemoTests.debug.xcconfig */,
+				BA671A93A2CF6AE44034F46A /* Pods-switchButtonDemoTests.release.xcconfig */,
+				68342B6A9908DFD5B8DA8777 /* Pods-switchButtonDemoUITests.debug.xcconfig */,
+				EF163CEE0A8891B0E16643AF /* Pods-switchButtonDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9916FE471470BC956D2DCFC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9115F9EE66ECF559D81635AB /* libPods-switchButtonDemo.a */,
+				E7D4C100D9A3FF7DF823E581 /* libPods-switchButtonDemoTests.a */,
+				42473935FEF940A2D701629A /* libPods-switchButtonDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0095395B22672AD600125995 /* switchButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0095398822672AD900125995 /* Build configuration list for PBXNativeTarget "switchButtonDemo" */;
+			buildPhases = (
+				80D56050DBCB66BF0A2B8C35 /* [CP] Check Pods Manifest.lock */,
+				0095395822672AD600125995 /* Sources */,
+				0095395922672AD600125995 /* Frameworks */,
+				0095395A22672AD600125995 /* Resources */,
+				B68D08A60AE5BD60E8114373 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = switchButtonDemo;
+			productName = switchButtonDemo;
+			productReference = 0095395C22672AD600125995 /* switchButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0095397322672AD900125995 /* switchButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0095398B22672AD900125995 /* Build configuration list for PBXNativeTarget "switchButtonDemoTests" */;
+			buildPhases = (
+				B96419E3593B59D3E808E65C /* [CP] Check Pods Manifest.lock */,
+				0095397022672AD900125995 /* Sources */,
+				0095397122672AD900125995 /* Frameworks */,
+				0095397222672AD900125995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0095397622672AD900125995 /* PBXTargetDependency */,
+			);
+			name = switchButtonDemoTests;
+			productName = switchButtonDemoTests;
+			productReference = 0095397422672AD900125995 /* switchButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0095397E22672AD900125995 /* switchButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0095398E22672AD900125995 /* Build configuration list for PBXNativeTarget "switchButtonDemoUITests" */;
+			buildPhases = (
+				DFF5C7AE8AFF740E05376B60 /* [CP] Check Pods Manifest.lock */,
+				0095397B22672AD900125995 /* Sources */,
+				0095397C22672AD900125995 /* Frameworks */,
+				0095397D22672AD900125995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0095398122672AD900125995 /* PBXTargetDependency */,
+			);
+			name = switchButtonDemoUITests;
+			productName = switchButtonDemoUITests;
+			productReference = 0095397F22672AD900125995 /* switchButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0095395422672AD600125995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = edz;
+				TargetAttributes = {
+					0095395B22672AD600125995 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					0095397322672AD900125995 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 0095395B22672AD600125995;
+					};
+					0095397E22672AD900125995 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 0095395B22672AD600125995;
+					};
+				};
+			};
+			buildConfigurationList = 0095395722672AD600125995 /* Build configuration list for PBXProject "switchButtonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0095395322672AD600125995;
+			productRefGroup = 0095395D22672AD600125995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0095395B22672AD600125995 /* switchButtonDemo */,
+				0095397322672AD900125995 /* switchButtonDemoTests */,
+				0095397E22672AD900125995 /* switchButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0095395A22672AD600125995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0095396C22672AD900125995 /* LaunchScreen.storyboard in Resources */,
+				0095396922672AD900125995 /* Assets.xcassets in Resources */,
+				0095396722672AD600125995 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0095397222672AD900125995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0095397D22672AD900125995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80D56050DBCB66BF0A2B8C35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-switchButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68D08A60AE5BD60E8114373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-switchButtonDemo/Pods-switchButtonDemo-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-4/iOS/RevealServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-switchButtonDemo/Pods-switchButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96419E3593B59D3E808E65C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-switchButtonDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFF5C7AE8AFF740E05376B60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-switchButtonDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0095395822672AD600125995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003E23E9226F09E8003D1A46 /* UIView+WY_Extenison.m in Sources */,
+				0095396422672AD600125995 /* ViewController.m in Sources */,
+				0095396F22672AD900125995 /* main.m in Sources */,
+				00E22E2A226869F20062230E /* SwitchButtonView.m in Sources */,
+				0035FC2F226D913900FC6360 /* SwitchTitleScrolloView.m in Sources */,
+				0095396122672AD600125995 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0095397022672AD900125995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0035FC30226D9B7900FC6360 /* SwitchTitleScrolloView.m in Sources */,
+				0095397922672AD900125995 /* switchButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0095397B22672AD900125995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0095398422672AD900125995 /* switchButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0095397622672AD900125995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0095395B22672AD600125995 /* switchButtonDemo */;
+			targetProxy = 0095397522672AD900125995 /* PBXContainerItemProxy */;
+		};
+		0095398122672AD900125995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0095395B22672AD600125995 /* switchButtonDemo */;
+			targetProxy = 0095398022672AD900125995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0095396522672AD600125995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0095396622672AD600125995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0095396A22672AD900125995 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0095396B22672AD900125995 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0095398622672AD900125995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0095398722672AD900125995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0095398922672AD900125995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C41C7CC74C0E2ABDE3161FF1 /* Pods-switchButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YY6KSBWWF;
+				INFOPLIST_FILE = switchButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.switchButtonDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0095398A22672AD900125995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D586FD192FA2925B5BB6D2D0 /* Pods-switchButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YY6KSBWWF;
+				INFOPLIST_FILE = switchButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.switchButtonDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0095398C22672AD900125995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE31CB2948483CED7F7B393 /* Pods-switchButtonDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YY6KSBWWF;
+				INFOPLIST_FILE = switchButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.switchButtonDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switchButtonDemo.app/switchButtonDemo";
+			};
+			name = Debug;
+		};
+		0095398D22672AD900125995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA671A93A2CF6AE44034F46A /* Pods-switchButtonDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YY6KSBWWF;
+				INFOPLIST_FILE = switchButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.switchButtonDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/switchButtonDemo.app/switchButtonDemo";
+			};
+			name = Release;
+		};
+		0095398F22672AD900125995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68342B6A9908DFD5B8DA8777 /* Pods-switchButtonDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YY6KSBWWF;
+				INFOPLIST_FILE = switchButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.switchButtonDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = switchButtonDemo;
+			};
+			name = Debug;
+		};
+		0095399022672AD900125995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF163CEE0A8891B0E16643AF /* Pods-switchButtonDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YY6KSBWWF;
+				INFOPLIST_FILE = switchButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.switchButtonDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = switchButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0095395722672AD600125995 /* Build configuration list for PBXProject "switchButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0095398622672AD900125995 /* Debug */,
+				0095398722672AD900125995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0095398822672AD900125995 /* Build configuration list for PBXNativeTarget "switchButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0095398922672AD900125995 /* Debug */,
+				0095398A22672AD900125995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0095398B22672AD900125995 /* Build configuration list for PBXNativeTarget "switchButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0095398C22672AD900125995 /* Debug */,
+				0095398D22672AD900125995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0095398E22672AD900125995 /* Build configuration list for PBXNativeTarget "switchButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0095398F22672AD900125995 /* Debug */,
+				0095399022672AD900125995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0095395422672AD600125995 /* Project object */;
+}
